@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="customer" prefHeight="400.0" prefWidth="600.0" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizzaproject.FXMLDocumentController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox layoutX="14.0" layoutY="138.0" spacing="20.0">
+               <children>
+                  <Label layoutX="227.0" layoutY="127.0" prefHeight="21.0" prefWidth="100.0" text="First Name" />
+                  <Label layoutX="240.0" layoutY="177.0" prefWidth="100.0" text="Last Name" textFill="#070707" />
+                  <Label layoutX="227.0" layoutY="224.0" prefHeight="21.0" prefWidth="113.0" text="Phone Number" />
+                  <Label layoutX="240.0" layoutY="265.0" prefWidth="100.0" text="Address" />
+                  <Label layoutX="240.0" layoutY="309.0" prefWidth="100.0" text="Email" textFill="#0d0d0d" />
+               </children>
+            </VBox>
+            <VBox layoutX="142.0" layoutY="131.0" spacing="11.0">
+               <children>
+                  <TextField fx:id="txtFirstName" layoutX="377.0" layoutY="122.0" promptText="First Name" />
+                  <TextField fx:id="txtLastName" layoutX="377.0" layoutY="172.0" promptText="Last Name" />
+                  <TextField fx:id="txtPhoneNum" layoutX="377.0" layoutY="219.0" promptText="555 555-5555" />
+                  <TextField fx:id="txtAddress" layoutX="377.0" layoutY="260.0" promptText="Full Address..." />
+                  <TextField fx:id="txtEmail" layoutX="377.0" layoutY="304.0" promptText="Example@..." />
+               </children>
+            </VBox>
+            <HBox layoutX="150.0" layoutY="84.0" spacing="20.0">
+               <children>
+                  <RadioButton fx:id="optPickup" layoutX="377.0" layoutY="376.0" mnemonicParsing="false" onAction="#rquired" text="Pickup">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="optDelivery" layoutX="470.0" layoutY="376.0" mnemonicParsing="false" onAction="#rquired" text="Delivery" toggleGroup="$group1" />
+               </children>
+            </HBox>
+            <Button fx:id="btnSubmit" layoutX="20.0" layoutY="355.0" mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="561.0" text="Submit" />
+            <VBox layoutX="338.0" layoutY="138.0" prefHeight="144.0" prefWidth="207.0" spacing="20.0">
+               <children>
+                  <Label fx:id="lblErrorFristName" layoutX="696.0" layoutY="127.0" textFill="#e40606">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Label>
+                  <Label fx:id="lblErrorLastName" layoutX="696.0" layoutY="177.0" textFill="#eb0909">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Label>
+                  <Label fx:id="lblErrorPhoneNum" layoutX="654.0" layoutY="224.0" textFill="#e40404">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Label>
+                  <Label fx:id="lblErrorAddress" layoutX="696.0" layoutY="265.0" textFill="#e40a0a">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="21.0" prefHeight="27.0" prefWidth="567.0" text="Customer Information">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblErrorCustomerInfo" layoutX="376.0" layoutY="84.0" prefHeight="21.0" prefWidth="187.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+WELCOME TO HAMZA'S PIZZA
+
+
+ORDER NUMBER:  002
+EMPLOYEE:  Hamza
+
+**CUSTOMER'S INFORMATION**
+FIRST NAME:  sdf
+LAST NAME:  sdf
+PHONE NUMBER:  9087878874
+ADDRESS:  wds
+
+**PIZZA INFORMATION**
+PIZZA #1
+PIZZA SIZA:  small
+PIZZA COST $8
+CRUST:  plain
+TOPPINGS ON THE RIGHT SIDE:  Mushroom Bacon .
+TOPPINGS ON THE LEFT SIDE:  -.
+TOPPINGS ON THE CENTER:  Olives .
+
+
+
+
+**TOTAL INFORMATION**
+Total before tax is $9
+Tax is 13%
+Total after tax is $10.17
+
+Order was placed at: 9:27
+Order will be ready at: 9:57
+
+
+
+THANK YOU FOR BUYING FORM OUR STORE
+OUR ADDRESS IS: 1035 Barclay Mississauga, ON, Canada O1K 5W3
+OUT PHONE NUMBER IS: 555-555-5555

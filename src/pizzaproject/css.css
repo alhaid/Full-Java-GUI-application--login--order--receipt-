@@ -1,0 +1,15 @@
+#pizza{
+    -fx-background-image: url("c.jpg");
+}
+#side-order{
+    -fx-background-image: url("c.jpg");
+}
+#drinks{
+    -fx-background-image: url("c.jpg");
+}
+#login{
+    -fx-background-image: url("t.jpg");
+}
+#customer{
+    -fx-background-image: url("i.jpg");
+}

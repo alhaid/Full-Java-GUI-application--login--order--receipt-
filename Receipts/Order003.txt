@@ -1,0 +1,55 @@
+WELCOME TO HAMZA'S PIZZA
+
+
+ORDER NUMBER:  003
+EMPLOYEE:  Hamza
+
+**CUSTOMER'S INFORMATION**
+FIRST NAME:  Hamza
+LAST NAME:  Shafeeq
+PHONE NUMBER:  647-330-5745
+ADDRESS:  123 Main st.
+EMAIL ADDRESS:  Hamza_alhaid@yahoo.com
+
+**PIZZA INFORMATION**
+PIZZA #1
+PIZZA SIZA:  medium
+PIZZA COST $10
+CRUST:  Stuffed crust
+TOPPINGS ON THE RIGHT SIDE:  pepperoni .
+TOPPINGS ON THE LEFT SIDE:  Green Pepper .
+TOPPINGS ON THE CENTER:  Tomatoes .
+
+
+**SIDE ORDER INFORMATION**
+Wings #1
+wings $3
+Garlic #2
+Garlic $2
+Broccoli #3
+Broccoli $3
+Fries #4
+Fries $8
+Potato #5
+Potato $20
+
+**DRINKS INFORMATION**
+Pepesi #22
+Pepesi $44
+Coca #1
+Coca $3
+
+
+**TOTAL INFORMATION**
+Total before tax is $94
+Tax is 13%
+Total after tax is $106.22
+
+Order was placed at: 22:30
+Order will be ready at: 23:0
+
+
+
+THANK YOU FOR BUYING FORM OUR STORE
+OUR ADDRESS IS: 1035 Barclay Mississauga, ON, Canada O1K 5W3
+OUT PHONE NUMBER IS: 555-555-5555
